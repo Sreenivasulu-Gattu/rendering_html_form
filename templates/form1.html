@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form1 </title>
+	<style>
+		h1
+		{
+			text-align: center;
+		}
+		body
+		{
+			background-color: black;
+		}
+		.row
+		{
+			text-align: center;
+		}
+		.table-t
+		{
+			border-style: solid;
+			border-width: 2px;
+			border-color: lightblue;
+			margin: 10px 550px;	
+			padding: 15px;
+			border-radius: 10px;
+			background-color: red;
+			color: white;
+			font-size: 20px;
+			font-family: cursive;
+
+		}
+		td
+		{
+			margin: 5px;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="table-t">
+		<h1>Novell services Login</h1>
+		<table>
+			<tr>
+				<td>
+					<label>Username :</label>
+				</td>
+				<td>
+					<input type="text">
+				</td>
+
+			</tr>
+			<tr>
+				<td>
+					<label>Password :</label>
+				</td>
+				<td>
+					<input type="Password">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>City of Employment:</label>
+				</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Web Server :</label>
+				</td>
+				<td>
+					<select>
+						<option>-- Choose a server --</option>
+						<option>Oracle Server</option>
+						<option>AWS server</option>
+						<option>MySQL server</option>
+						<option>Google Server</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td rowspan="4">
+					<label>Please specify your role :</label>				
+				</td>
+				<td>
+					<input type="radio" name="class">Admin
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="class">Engineer
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="class">Manager
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="class">Guest
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<br>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="3">
+					<label>Single sign-on to the following :</label>
+				</td>
+				<td>
+					<input type="checkbox" name="check">Maul
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" name="check">Payroll
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" name="check">Self-service
+				</td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr class="row">
+				<td colspan="2">
+					<input type="submit">
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
